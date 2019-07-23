@@ -1,0 +1,17 @@
+MOAC MicroChain contracts (Nuwa 1.0.9)
+
+SCS supports multiple contracts to be deployed on one MicroChain;
+More info can be found at:
+https://moac-docs.readthedocs.io/en/latest/subchain/atomicswap.html#atomic-swap-of-moac-asm
+
+README           - This file contains info about the files in the package;
+DappBase.sol         - DappControl contract to be used after MicorChain contract is deployed;
+deployASM.js     - Example javascript file to be used to deploy the ASM MicroChain;
+DirectExchangeToken.sol     - Example contract file to be used to deploy before the ASM MicroChain to enable the ASM;
+SubChainBase.sol         - MicroChain definition contract, SCS need to use this contract to form the MicroChain;
+SubChainProtocolBase.sol         - MicroChain definition for application, SCS need to use this contract to register/withdraw from the MicroChain.
+VnodeProtocolBase.sol         - MicroChain definition for , VNODE need to use this contract to register/withdraw to handle the traffic of MicroChain to the MotherChain network.
+
+
+
+
